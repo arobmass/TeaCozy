@@ -32,3 +32,20 @@ nav{
 a{
   color: seashell;
 }
+
+.mission{
+  display: flex;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  justify-content: center;
+  height: 700px;
+  align-items: center;
+}
+
+div.text-block{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  opacity: 0.9;
+}

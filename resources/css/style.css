@@ -75,3 +75,26 @@ div.month-flex-item img{
 .month-flex-item h4{
   padding-top: 10px;
 }
+
+.locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+.flex-containers-location{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.locations h2{
+  margin-bottom: 15px;
+}
+
+.store{
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -98,3 +98,12 @@ div.month-flex-item img{
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.summary{
+  height: 200px;
+}
+
+.footer{
+  text-align: left;
+  margin-left: 20px;
+}

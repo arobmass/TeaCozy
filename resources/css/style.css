@@ -5,6 +5,7 @@ body{
   text-align: center;
   font-size: 22px;
   font-family: Helvetica;
+  margin: 0 auto;
 }
 
 header.flex-container{
@@ -20,6 +21,7 @@ header{
   position: fixed;
   background-color: black;
   z-index: 1;
+  margin: auto;
 }
 
 header img{
@@ -30,6 +32,7 @@ header img{
 nav{
   text-align: right;
   flex-grow: 1;
+  margin-right: 10px;
 }
 
 a{
@@ -64,9 +67,6 @@ div.month-flex-containers{
   justify-content: center;
 }
 
-div.month-flex-item{
-
-}
 
 div.month-flex-item img{
   height: 200px;
@@ -83,6 +83,8 @@ div.month-flex-item img{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
   padding-top: 70px;
+  width: 1100px;
+  margin: auto;
 }
 
 .flex-containers-location{
@@ -100,6 +102,8 @@ div.month-flex-item img{
   background-color: black;
   margin-left: 20px;
   margin-right: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .summary{
